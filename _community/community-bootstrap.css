@@ -1,8 +1,19 @@
 @import "http://fonts.googleapis.com/css?family=Roboto:400,300";
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   padding-top: 100px;
   background-color: #fcfcfc;
   font-family: 'Roboto';
+  margin-bottom: 240px;
+}
+p,
+ul {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
 }
 .page-title {
   padding: 0;
@@ -67,7 +78,7 @@ blockquote .small:before {
   color: white;
 }
 .navbar-brand:hover {
-  color: rgba(45, 173, 237, 0.9);
+  color: #cfcfcf;
 }
 .navbar-flatten {
   background-color: white;
@@ -82,7 +93,7 @@ blockquote .small:before {
 }
 .navbar-nav > li > a:hover {
   background: none;
-  color: rgba(45, 173, 237, 0.9);
+  color: #cfcfcf;
 }
 .btn {
   border: 0px;
@@ -154,11 +165,13 @@ blockquote .small:before {
   background-color: white;
 }
 .footer {
-  height: 200px;
+  height: 202px;
   margin-top: 50px;
   background-color: #f7f7f7;
-  position: relative;
+  position: absolute;
   border-top: 2px solid #cccccc;
+  bottom: 0;
+  width: 100%;
 }
 .footer:before {
   content: '';
@@ -191,4 +204,26 @@ blockquote .small:before {
 }
 .footer .slide-nav-btn:hover {
   opacity: 1;
+}
+.team-pic {
+  margin-top: 25px;
+}
+.team-subtitle {
+  margin-top: 0px;
+  color: #cccccc;
+}
+.top-10 {
+  margin-top: 10px;
+}
+.top-20 {
+  margin-top: 20px;
+}
+.top-30 {
+  margin-top: 30px;
+}
+.top-40 {
+  margin-top: 40px;
+}
+.top-50 {
+  margin-top: 50px;
 }

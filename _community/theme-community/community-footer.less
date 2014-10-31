@@ -1,9 +1,11 @@
 .footer {
-	height: 200px; 
+	height: @footer-height + 2; 
 	margin-top: 50px;
 	background-color: @footer-background;
-	position: relative;
+	position: absolute;
 	border-top: 2px solid @border-color;
+	bottom: 0; 
+	width: 100%;
 	
 	&:before {
 		content: '';
@@ -11,7 +13,7 @@
 		display: block;
 		width: 100%;
 		opacity: .10;
-		height: 200px;
+		height: @footer-height;
 		background: url('twitter.png') no-repeat 40px 40px;
 	}
 	
